@@ -40,7 +40,7 @@ export default function Home() {
                 onClick={() => setDarkMode(!darkMode)}
                 className='cursor-pointer text-xl md:text-2xl dark:hidden'
               /></li>
-              <li><a className=' bg-gradient-to-b from-green-800 to-teal-500 text-white px-6 py-2 rounded-md ml-6 md:px-8 text-lg dark:text-gray-300' href="./CV.pdf">CV</a></li>
+              <li><a className=' bg-gradient-to-b from-green-800 to-teal-500 text-white px-6 py-2 rounded-md ml-6 md:px-8 text-lg dark:text-gray-300' href="./CV.pdf" target="_blank">CV</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -95,7 +95,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/4 flex-1 cursor-pointer">
-            <a href='/' target="_blank">
+            <a href='https://github.com/ovetmak/portfolio' target="_blank">
               <Image
                 className="rounded-lg shadow-md object-cover"
                 width={"100%"}
