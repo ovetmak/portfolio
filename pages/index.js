@@ -35,13 +35,13 @@ export default function Home() {
       'I gained during my studies. When choosing projects, I tried to create something that could be useful and was close to real online businesses I met on the Internet.',
     h3Tech: 'Technologies I use',
     pTech:
-      'While working on these projects, I tried to use the most recent and modern technologies to master these approaches and to be able implement these skills in real cases in the future.',
+      'While working on these projects, I tried to use the most recent and modern technologies to master these approaches and to be able to implement these skills in real-life situations in the future.',
     pCardOne:
-      'Create user interfaces with ability to efficiently render and update components.',
+      'Created user interfaces with the ability to efficiently render and update components.',
     pCardTwo:
-      'Building simple web applications and APIs and combining them with databases.',
+      'Built simple web applications and APIs and combined them with databases.',
     pCardThree:
-      'Following and managing release versions, enabling authentication, location and media APIs, deploying projects online while keeping projects secure.',
+      'Followed and managed release versions, enabled authentication, location and media APIs, and deployed projects online while keeping projects secure.',
   }
   const spanishText = {
     lang: false,
@@ -57,11 +57,11 @@ export default function Home() {
     pTech:
       'Mientras trabajaba en estos proyectos, traté de utilizar las tecnologías más recientes y modernas para dominar estos enfoques y poder implementar estas habilidades en casos reales en el futuro.',
     pCardOne:
-      'Cree interfaces de usuario con la capacidad de renderizar y actualizar componentes de manera eficiente.',
+      'Creé interfaces de usuario con la capacidad de renderizar y actualizar componentes de manera eficiente.',
     pCardTwo:
-      'Crear aplicaciones web y API simples y combinarlas con bases de datos.',
+      'Creé aplicaciones web y API simples y conecté con bases de datos.',
     pCardThree:
-      'Seguimiento y administración de versiones de lanzamiento, habilitación de autenticación, ubicación y API de medios, implementación de proyectos en línea mientras se mantienen seguros los proyectos.',
+      'Seguí y gesté de versiones de lanzamiento, habilité de autenticación, ubicación y API de medios, implementé de proyectos en línea mientras se mantienen seguros los proyectos.',
   }
 
   const [darkMode, setDarkMode] = useState(false)
